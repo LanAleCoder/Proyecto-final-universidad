@@ -20,9 +20,9 @@ const Navbar: React.FC = () => {
           </a>
           {dropdownOpen && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item"><a href="#gallery">Pedidos</a></li>
-              <li className="dropdown-item"><a href="#testimonials">Inventario</a></li>
-              <li className="dropdown-item"><a href="#careers">Menú</a></li>
+              <li className="dropdown-item"><a href="#pedidos">Pedidos</a></li>
+              <li className="dropdown-item"><a href="#inventario">Inventario</a></li>
+              <li className="dropdown-item"><a href="#menu">Menú</a></li>
             </ul>
           )}
         </li>
@@ -33,10 +33,10 @@ const Navbar: React.FC = () => {
           </a>
           {dropdownOpen && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item"><a href="#gallery">Eventos</a></li>
-              <li className="dropdown-item"><a href="#testimonials">Historia</a></li>
-              <li className="dropdown-item"><a href="#careers">Ventas</a></li>
-              <li className="dropdown-item"><a href="#careers">Aforo</a></li>
+              <li className="dropdown-item"><a href="#eventos">Eventos</a></li>
+              <li className="dropdown-item"><a href="#historia">Historia</a></li>
+              <li className="dropdown-item"><a href="Grafica.tsx">Ventas</a></li>
+              <li className="dropdown-item"><a href="#Aforo">Aforo</a></li>
             </ul>
           )}
         </li>
@@ -47,9 +47,9 @@ const Navbar: React.FC = () => {
           </a>
           {dropdownOpen && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item"><a href="#gallery">Contacto</a></li>
-              <li className="dropdown-item"><a href="#testimonials">Reservas</a></li>
-              <li className="dropdown-item"><a href="#careers">Galeria</a></li>
+              <li className="dropdown-item"><a href="#contacto">Contacto</a></li>
+              <li className="dropdown-item"><a href="#reserva">Reservas</a></li>
+              <li className="dropdown-item"><a href="#galeria">Galeria</a></li>
             </ul>
           )}
         </li>
