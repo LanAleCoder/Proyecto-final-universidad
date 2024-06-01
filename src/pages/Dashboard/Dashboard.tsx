@@ -1,5 +1,4 @@
-import Chart from "chart.js/auto";
-import { UserData } from "./Data";
+
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -11,7 +10,6 @@ import {
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
 import { faker } from "@faker-js/faker";
-import { useState } from "react";
 ChartJS.register(
   CategoryScale,
   LinearScale,
