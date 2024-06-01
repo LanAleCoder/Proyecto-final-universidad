@@ -1,6 +1,7 @@
 import SocialNetwork from "../SocialNetwork/SocialNetwork";
 import Linkedin from "../icons/Linkedin";
 import Github from "../icons/Github";
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -29,7 +30,7 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <p>
-          © 2024 Diseñado por Peter Alexander. Todos los derechos reservados.
+          © 2024 Modificado por el equipo 1. Todos los derechos reservados.
         </p>
       </div>
     </footer>

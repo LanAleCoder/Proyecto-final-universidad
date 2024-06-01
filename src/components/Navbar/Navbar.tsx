@@ -1,57 +1,34 @@
 import React from "React";
-import "./navbard.css";
+import LOGO from "../icons/LOGO";
+import "./navbar.css";
+import Cart from "../icons/cart";
 const Navbar: React.FC = () => {
   return (
-    <header>
-      <nav className="navbar">
-        <div className="navbar-brand">Sabores del Alma</div>
-        <ul className="navbar-menu">
-          <li className="navbar-item">
-            <a href="#home">Inicio</a>
+    <header className="header">
+      <nav className="header__nav" aria-label="Navegación principal">
+        <a href="/" className="header__link-home">
+          <LOGO />
+        </a>
+        <ul className="header__nav-ul">
+          <li className="header__nav-li">
+            <a className="header__nav-link" href="/">
+              Inicio
+            </a>
           </li>
-          <li className="navbar-item">
-            <a href="#menu">Menú</a>
-            <ul>
-              <li>
-                <a href="#">Menú</a>
-              </li>
-              <li>
-                <a href="#">Pedidos</a>
-              </li>
-              <li>
-                <a href="#">Inventario</a>
-              </li>
-            </ul>
+          <li className="header__nav-li">
+            <a className="header__nav-link" href="/ventas">
+              Ventas
+            </a>
           </li>
-          <li className="navbar-item">
-            <a href="#about">Nosotros</a>
-            <ul>
-              <li>
-                <a href="#">Eventos</a>
-              </li>
-              <li>
-                <a href="#">Aforo</a>
-              </li>
-              <li>
-                <a href="#">Historia</a>
-              </li>
-              <li>
-                <a href="#">Ventas</a>
-              </li>
-            </ul>
-          </li>
-          <li className="navbar-item">
-            <a href="#contact">Contacto</a>
-            <ul>
-              <li>
-                <a href="#">Contacto</a>
-              </li>
-              <li>
-                <a href="#">Reservaciones</a>
-              </li>
-            </ul>
+          <li className="header__nav-li">
+            <a className="header__nav-link" href="/inventario">
+              Inventario
+            </a>
           </li>
         </ul>
+        <a href="/pedidos" className="header__cart-button">
+          <Cart />
+        </a>
       </nav>
     </header>
   );

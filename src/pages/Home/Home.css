@@ -1,0 +1,23 @@
+.main-content {
+  min-height: 60vh;
+  margin-bottom: 3rem;
+}
+.container {
+  max-width: 1000px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

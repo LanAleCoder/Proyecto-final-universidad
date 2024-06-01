@@ -1,52 +1,18 @@
-.carousel {
-    position: relative;
-    max-width: 800px;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .carousel-inner {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .carousel-item {
-    min-width: 100%;
-    transition: opacity 0.5s ease;
-    opacity: 0;
-  }
-  
-  .carousel-item.active {
-    opacity: 1;
-  }
-  
-  .carousel-item img {
-    width: 100%;
-    display: block;
-  }
-  
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: white;
-    font-size: 2rem;
-    padding: 0.5rem;
-    cursor: pointer;
-    z-index: 1000;
-  }
-  
-  .carousel-button.prev {
-    left: 10px;
-  }
-  
-  .carousel-button.next {
-    right: 10px;
-  }
-  
-  .carousel-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
+.slider__reservations {
+  padding: 1.3rem 2rem;
+  background-color: #323232;
+  color: #fff;
+  border-radius: 1.1rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+}
+
+.carousel-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
