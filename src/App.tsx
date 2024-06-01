@@ -1,6 +1,6 @@
-import Routes from "./routes/Routes";
+import DashboardRoutes from "./routes/DashboarRouter";
 function App() {
-  return <Routes />;
+  return <DashboardRoutes />;
 }
 
 export default App;
