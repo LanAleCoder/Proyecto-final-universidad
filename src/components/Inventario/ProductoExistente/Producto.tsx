@@ -2,7 +2,7 @@ import { useState } from "react";
 import DataTable from "react-data-table-component";
 
 const Producto = () => {
-  const [columns, setColumns] = useState<any>([
+  const [columns] = useState<any>([
     {
       id: "producto_id",
       name: "ID",

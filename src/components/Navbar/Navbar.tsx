@@ -1,8 +1,7 @@
-import React from "React";
 import LOGO from "../icons/LOGO";
 import "./navbar.css";
 import Cart from "../icons/cart";
-const Navbar: React.FC = () => {
+const Navbar = () => {
   return (
     <header className="header">
       <nav className="header__nav" aria-label="Navegación principal">
