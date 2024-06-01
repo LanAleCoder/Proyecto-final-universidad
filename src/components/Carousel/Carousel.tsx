@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import './Carousel.css';
 
 const images = [
-    '/Proyecto-final-universidad/public/img1',
-    '/Proyecto-final-universidad/public/img2',
-    '/Proyecto-final-universidad/public/img3',
-    '/Proyecto-final-universidad/public/img4',
-    '/Proyecto-final-universidad/public/img5',
+    '/Proyecto-final-universidad/public/imagen1.jpg',
+    '/Proyecto-final-universidad/public/imagen2.webp',
+    '/Proyecto-final-universidad/public/imagen3.jpg',
+    '/Proyecto-final-universidad/public/imagen4.jpg',
+    '/Proyecto-final-universidad/public/imagen5.webp',
 ];
 
 const Carousel: React.FC = () => {
